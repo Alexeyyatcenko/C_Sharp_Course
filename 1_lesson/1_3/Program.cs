@@ -3,7 +3,7 @@
 
 
 Console.WriteLine("Введите число: ");
-string a = Console.ReadLine();
+string a = Console.ReadLine()!;
 int N = int.Parse(a);
 int NegN = - N;
 

@@ -2,7 +2,7 @@
 //    недели по заданному номеру.
 
 Console.WriteLine("Введите число");
-int y = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine()!);
 if ( y == 1) 
 {
     Console.WriteLine("Понедельник");
